@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-aabccd021",
+  "version": "0.0.0-semantic-release",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-fp-ts": "^0.3.2",
+    "eslint-plugin-functional": "^4.2.2",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-fp-ts": "^0.3.2",
+    "eslint-plugin-functional": "^4.2.2",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
+  }
+}
