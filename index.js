@@ -21,7 +21,6 @@ module.exports = {
     "plugin:fp-ts/all",
     "plugin:prettier/recommended",
     "prettier"
-
 	],
 	rules: {
     "@typescript-eslint/no-shadow": "error",
