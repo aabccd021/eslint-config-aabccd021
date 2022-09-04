@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aabccd021",
-  "version": "0.0.0-semantic-release",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "index.js",
   "files": [
