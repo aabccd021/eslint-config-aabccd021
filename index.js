@@ -12,6 +12,23 @@ module.exports = {
     "dist/",
     "node_modules"
 	],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "**/tsconfig.**"
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "test/**/*.test.ts"
+      ],
+      "rules": {
+        "functional/no-expression-statement": "off",
+        "functional/no-return-void": "off"
+      }
+    }
+  ],
 	extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
