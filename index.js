@@ -31,14 +31,11 @@ module.exports = {
   ],
 	extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:@typescript-eslint/all",
     "plugin:functional/all",
     "plugin:fp-ts/all",
     "plugin:prettier/recommended",
     "prettier"
-
 	],
 	rules: {
     "@typescript-eslint/no-shadow": "error",
