@@ -31,7 +31,7 @@ module.exports = {
   ],
 	extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/all",
+    "plugin:@typescript-eslint/strict",
     "plugin:functional/all",
     "plugin:fp-ts/all",
     "plugin:prettier/recommended",
