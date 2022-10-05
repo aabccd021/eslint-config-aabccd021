@@ -38,6 +38,7 @@ module.exports = {
     "prettier"
 	],
 	rules: {
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/unbound-method": "off",
